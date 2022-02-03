@@ -1,0 +1,91 @@
+body{
+    font-family: 'Courier New', 'Courier New Regular', 'Courier New Grande', 'Courier New Unicode', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+header{
+    display: block;
+    width: 1350px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
+h1 {
+    color: rgb(255, 255, 255);
+    font-family:'Courier New';
+  }
+main{
+    display: block;
+    width: 1350px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    
+}
+p {
+    color: white;
+    margin: 100px;
+    font-family:'Courier New';
+}
+.Portfolio img{
+  display: block;
+  margin: 10px auto;
+}
+.container{
+    display: flex;
+    padding: auto;
+}
+#dugmici{
+    padding-right: 60px;
+}
+.container:not(:first-child){
+    margin-top: 20px;
+}
+.col{
+    background-color: rgb(255, 255, 255);
+    margin-left: 60px;
+    width: 20%;
+}
+.col-main{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    font-family:'Courier New';
+  }
+.link{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-right: 10px;
+}
+.links{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+@media (max-width:1400px){
+    header{
+        width: 99%;
+    }
+    main{
+        width: 99%;
+    }
+}
+@media (max-width:1000px){
+    .monkey-business img{
+        width: 100%;
+      }
+      .col{
+        margin-left: 0px;
+    }
+    .email{
+        font-size: 15px;
+    }
+    #mrzimovuglupost{
+        padding-right: 0px;
+    }
+}
